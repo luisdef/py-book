@@ -15,7 +15,7 @@ for i in range(0, 3):
         menor = n
     if n > maior:
         maior = n
-    if n < menor:
+    elif n < menor:
         menor = n
 
 print(f'\nMaior número: {maior}.')
