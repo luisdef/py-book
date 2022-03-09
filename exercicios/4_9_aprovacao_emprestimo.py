@@ -8,4 +8,7 @@
 # valor da casa a comprar dividindo pelo número de 
 # meses a pagar.
 
-# Valor da casa; Salário; Anos a pagar. 
+print('Cálculo de aprovação de empréstimo:\n')
+# Valor da casa; Salário; Anos a pagar.
+casa = float(input('Valor da casa: R$ '))
+print(f'Valor digitado: R$ {casa:.2f}')
