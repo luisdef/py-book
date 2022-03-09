@@ -6,7 +6,6 @@ A = 1
 B = 2
 C = True
 D = False
-
 res = A > B and C or D
 print(res)
 
@@ -15,7 +14,6 @@ A = 10
 B = 3
 C = False
 D = False
-
 res2 = A > B and C or D
 print(res2)
 
@@ -24,7 +22,6 @@ A = 5
 B = 1
 C = True
 D = True
-
 res3 = A > B and C or D
 print(res3)
 
