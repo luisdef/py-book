@@ -9,6 +9,15 @@
 # meses a pagar.
 
 print('Cálculo de aprovação de empréstimo:\n')
-# Valor da casa; Salário; Anos a pagar.
-casa = float(input('Valor da casa: R$ '))
-print(f'Valor digitado: R$ {casa:.2f}')
+
+valor_casa = float(input('Valor da casa: R$ '))
+salario = float(input('Informe seu salário: R$ '))
+anos = int(input('Anos a pagar a casa: '))
+
+meses = anos * 12
+valor_mensal_casa = valor_casa / meses
+
+if valor_mensal_casa > ((salario * 30) / 100):
+    print('\nEmpréstimo recusado.')
+else:
+    print('\nEmpréstimo aprovado.')
