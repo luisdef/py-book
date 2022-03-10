@@ -23,3 +23,24 @@ print('Calculador de Fornecimento de energia:\n')
 
 kwh = int(input('Informe os kWh consumidos: '))
 instalacao = input('Tipo de instalação:\n  (R) Residência;\n  (I) Industrial;\n  (C) Comércios.\n>> ').strip().upper()[0]
+conta = 0
+
+if instalacao == 'R':
+    if kwh <= 500:
+        conta = kwh * 0.40
+    else:
+        conta = kwh * 0.65
+elif instalacao == 'I':
+    if kwh <= 5000:
+        conta = kwh * 0.55
+    else:
+        conta = kwh * 0.66
+elif instalacao == 'C':
+    if kwh <= 1000:
+        conta = kwh * 0.55
+    else:
+        conta = kwh * 0.60
+else:
+    print(f'\nTipo de instalação {instalacao} não reconhecida.')
+
+print(f'\nConta: R$ {conta}.')
