@@ -10,7 +10,6 @@
 print('Verificação de velocidade:\n')
 
 velocidade = int(input('Velocidade do carro: '))
-
 if velocidade > 80:
     multa = (velocidade - 80) * 5
     print(f'\nO carro está acima da velocidade. A multa é de R$ {multa:.2f}.')
