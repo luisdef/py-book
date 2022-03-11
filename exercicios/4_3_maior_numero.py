@@ -4,10 +4,8 @@
 # maior e o menor.
 
 print('Maior e menor número:\n')
-
 maior = None
 menor = None
-
 for i in range(0, 3):
     n = int(input('Digite um número: '))
     if i == 0:
@@ -17,6 +15,5 @@ for i in range(0, 3):
         maior = n
     elif n < menor:
         menor = n
-
 print(f'\nMaior número: {maior}.')
 print(f'Menor número: {menor}.')
