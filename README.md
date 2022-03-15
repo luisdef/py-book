@@ -4,7 +4,8 @@ Estudos do livro Python Algoritmos e lógica de programação do autor [Nilo Ney
 
 
 ### Capítulos
------
+
+---
 #### 1. Motivação
 #### 2. Preparando o ambiente
 #### 3. Variáveis e entrada de dados
@@ -16,5 +17,3 @@ Estudos do livro Python Algoritmos e lógica de programação do autor [Nilo Ney
 #### 9. Arquivos
 #### 10. Classes e objetos
 #### 11. Banco de dados
------
-
