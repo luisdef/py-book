@@ -13,6 +13,7 @@ taxa_jur_poupanca = float(input("Taxa de juros poupança: "))
 print("\n+-------+---------------+")
 print("|  Mês  |      Valor    |")
 print("+-------+---------------+")
+
 poupanca = dep_inicial
 meses = 1
 while meses <= 24:
